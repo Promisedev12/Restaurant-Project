@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B082DC6-CE89-4932-B517-E21C239B710A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Restoran_Project</RootNamespace>
+    <AssemblyName>Restoran Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Achu Promise\OneDrive\Music\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Limas eatery</ProductName>
+    <PublisherName>Pefsom Interms</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\project resource\PcWonderland.com_Guna_UI_Framework_Ultimate_2\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFood.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddFood.Designer.cs">
+      <DependentUpon>AddFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addmenue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addmenue.Designer.cs">
+      <DependentUpon>addmenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="availablewaiter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="availablewaiter.Designer.cs">
+      <DependentUpon>availablewaiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bestFood.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="bestFood.Designer.cs">
+      <DependentUpon>bestFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bestWorker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="bestWorker.Designer.cs">
+      <DependentUpon>bestWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashitem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cashitem.Designer.cs">
+      <DependentUpon>cashitem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cashnotify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cashnotify.Designer.cs">
+      <DependentUpon>cashnotify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cathegoryadd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cathegoryadd.Designer.cs">
+      <DependentUpon>cathegoryadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chefdash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chefdash.Designer.cs">
+      <DependentUpon>chefdash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="chefOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="chefOrder.Designer.cs">
+      <DependentUpon>chefOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="companyLogo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="companyLogo.Designer.cs">
+      <DependentUpon>companyLogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dash.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dash.Designer.cs">
+      <DependentUpon>dash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteUser.Designer.cs">
+      <DependentUpon>deleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Food.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Food.Designer.cs">
+      <DependentUpon>Food.cs</DependentUpon>
+    </Compile>
+    <Compile Include="foodCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="foodCard.Designer.cs">
+      <DependentUpon>foodCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodCathegories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FoodCathegories.Designer.cs">
+      <DependentUpon>FoodCathegories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itermdetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="itermdetails.Designer.cs">
+      <DependentUpon>itermdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manageUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="manageUsers.Designer.cs">
+      <DependentUpon>manageUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menus.Designer.cs">
+      <DependentUpon>menus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="newOrder.Designer.cs">
+      <DependentUpon>newOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orderitem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="orderitem.Designer.cs">
+      <DependentUpon>orderitem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orderWaiter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="orderWaiter.Designer.cs">
+      <DependentUpon>orderWaiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="payments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payments.Designer.cs">
+      <DependentUpon>payments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recentOrders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="recentOrders.Designer.cs">
+      <DependentUpon>recentOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="resturantProjectDataSet.cs">
+      <DependentUpon>resturantProjectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="resturantProjectDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>resturantProjectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tableLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tableLogin.Designer.cs">
+      <DependentUpon>tableLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateUser.Designer.cs">
+      <DependentUpon>UpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userDetails.Designer.cs">
+      <DependentUpon>userDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="userLogin.Designer.cs">
+      <DependentUpon>userLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="waiterDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="waiterDash.Designer.cs">
+      <DependentUpon>waiterDash.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddFood.resx">
+      <DependentUpon>AddFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addmenue.resx">
+      <DependentUpon>addmenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="availablewaiter.resx">
+      <DependentUpon>availablewaiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bestFood.resx">
+      <DependentUpon>bestFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bestWorker.resx">
+      <DependentUpon>bestWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashitem.resx">
+      <DependentUpon>cashitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cashnotify.resx">
+      <DependentUpon>cashnotify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cathegoryadd.resx">
+      <DependentUpon>cathegoryadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chefdash.resx">
+      <DependentUpon>chefdash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chefOrder.resx">
+      <DependentUpon>chefOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="companyLogo.resx">
+      <DependentUpon>companyLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dash.resx">
+      <DependentUpon>dash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteUser.resx">
+      <DependentUpon>deleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food.resx">
+      <DependentUpon>Food.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="foodCard.resx">
+      <DependentUpon>foodCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodCathegories.resx">
+      <DependentUpon>FoodCathegories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itermdetails.resx">
+      <DependentUpon>itermdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manageUsers.resx">
+      <DependentUpon>manageUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menus.resx">
+      <DependentUpon>menus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newOrder.resx">
+      <DependentUpon>newOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderitem.resx">
+      <DependentUpon>orderitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderWaiter.resx">
+      <DependentUpon>orderWaiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payments.resx">
+      <DependentUpon>payments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="recentOrders.resx">
+      <DependentUpon>recentOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tableLogin.resx">
+      <DependentUpon>tableLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateUser.resx">
+      <DependentUpon>UpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userDetails.resx">
+      <DependentUpon>userDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userLogin.resx">
+      <DependentUpon>userLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="waiterDash.resx">
+      <DependentUpon>waiterDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="resturantProjectDataSet.xsc">
+      <DependentUpon>resturantProjectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="resturantProjectDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>resturantProjectDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="resturantProjectDataSet.xss">
+      <DependentUpon>resturantProjectDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.NetCore.CoreRuntime.3.1.x64">
+      <Visible>False</Visible>
+      <ProductName>.NET Core Runtime 3.1.32 %28x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resturantProject.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resturantProject_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>resturantProject.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,33 @@
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran Project.csproj.AssemblyReference.cache
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.AddFood.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.addmenue.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.AdminDashboard.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.adminorders.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.availablewaiter.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.bestFood.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.cashitem.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.cashnotify.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.cathegoryadd.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.chefdash.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.chefOrder.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.companyLogo.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.dash.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.Dashboard.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.Food.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.foodCard.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.FoodCathegories.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.itermdetails.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.Login.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.menus.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.newOrder.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.orderitem.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.ordersadmin.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.orderWaiter.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.payments.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.Properties.Resources.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.recentOrders.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.tableLogin.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.userLogin.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran_Project.waiterDash.resources
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran Project.csproj.GenerateResource.cache
+C:\Users\Achu Promise\Downloads\Resturant internship Project\Restoran Project\obj\Release\Restoran Project.csproj.CoreCompileInputs.cache
